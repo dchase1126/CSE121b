@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta description="viewport" content="Final Assignment Project for Diane Chase in CSE121b: Javascript at Brigham Young University - Idaho">
+    <title>Final Project</title>
+
+    <link rel="stylesheet" href="final.css">
+    <script src="scripts/final.js"></script>
+    <script defer src="scripts/todaysdate.js"></script>
+    <script defer src="scripts/API.js"></script>
+        
+</head>
+
+<body>
+    <header>
+        <img src='images/Diane_Headshot.png' alt="Diane Chase"/>
+        <h1>Final Project</h1>
+         
+    </header> 
+    <main>
+        <section><h1><strong>Math Skills Calculator<br>and Quote</strong></h1>
+            </section>
+                  
+    </main>
+    <h2>
+        Your Daily Quote:<button type='button' id='getQuoteButton'>Click for quote</button>
+         
+        <div id='quotes'></div>
+    </h2>
+        <section>
+            <p><strong>Math skills instuctions:</strong>
+            <p>1. Enter numbers in the 2 number boxes. 
+            <p>2. Enter the math operator you would like to use. (+, -, *, or /).
+            <p>3. Put your answer in the answer box to see if you got it correct.
+            </p>
+        
+    
+        Enter First Number: <input type='text' id='number1Box' size='3'><br>  
+        Enter Math Operator (+, -, *, or /): <input type='text' id='operatorBox' size='3'><br> 
+        Enter Second Number: <input type='text' id='number2Box' size='3'><br>
+        Enter Your Answer: <input type='text' id='childsAnswerBox' size='3'><br> 
+        Final Result: <button type='button' onclick='MathQuiz()'>Click Here</button>  
+        <div id='correctMessageOutput'>message</div> 
+    </section>
+    
+    <footer>
+        &copy; <span id="currentdate"></span> | Diane Chase | Utah | Final Project | CSE121b <br>
+        Inspirational quotes provided by <a href="https://zenquotes.io/"   target="_blank">ZenQuotes API</a>        
+    </footer>
+
+    </body>
+</html>
