@@ -1,6 +1,4 @@
-         
-    
-// get child to input a number, an arithmetic operator (+, -, *, or /), another number, and the child's answer to the problem.  
+ //if else and switch          
 function MathQuiz() {
         let number1 = parseFloat(document.getElementById('number1Box').value);
         let number2 = parseFloat(document.getElementById('number2Box').value);
@@ -31,10 +29,9 @@ function MathQuiz() {
         else {     
             message = 'Incorrect! Try again!'
         };
-        // Display the  correct message to the user.
+        
         document.getElementById('correctMessageOutput').innerHTML = message;
-        //document.querySelector("#onClick").addEventListener("click", message);
- }
+        
     
         
      

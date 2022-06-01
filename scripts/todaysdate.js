@@ -1,4 +1,4 @@
-
+//Array
 const days = [
     "Sunday", 
     "Monday",
@@ -31,14 +31,3 @@ let year = d.getFullYear();
 let fulldate = day + ", " + month + " " + d.getDate() + ", " + d.getFullYear();
  
 document.getElementById("currentdate").textContent = fulldate;
-
-
-
-/*let theDate =  new Date();
-let dayOfWeek = theDate.getDate();
-let current = getDay();
-let theDay = `${theDate.getmonth()}/${theDate.getDate()}`;
-document.querySelector(fulldate).textContent = fulldate;*/
-
-//const currentYear = newDate().getFullYear(); /*-- This was a suggestion from another classmember and Bro Blazzard.*/
-//document.querySelector('#year').innerHTML = currentYear;
