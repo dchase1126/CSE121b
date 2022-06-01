@@ -1,0 +1,78 @@
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: aquamarine;
+  color: #a5a58d;
+  margin: 10px;
+  border: 15px solid #a5a58d;
+  padding: 5px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  background-color: aquamarine;
+  padding: 5px;
+  text-align: center;
+}
+
+header {
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin: 10px;
+  border: 15px solid #a5a58d;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 4.2rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 5px;
+}
+section {
+  text-align: left;
+  padding: 25px;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+footer p {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
