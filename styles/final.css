@@ -62,6 +62,17 @@ section {
   padding: 25px;
 }
 
+input {
+  padding: 6px;
+  font-size: 10;
+  border-radius: 8px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}
+
 footer {
   background-color: gray;
   color: white;
