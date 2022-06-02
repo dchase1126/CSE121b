@@ -4,6 +4,7 @@ let results = null;
 document.querySelector('#getQuoteButton').addEventListener('click', getapi);
 
 function quote(data) {
+   
   let h2 = document.createElement('h2');
   h2.textContent = data.en;
 
