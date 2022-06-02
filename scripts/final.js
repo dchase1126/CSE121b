@@ -29,9 +29,9 @@ function MathQuiz() {
         else {     
             message = 'Incorrect! Try again!'
         };
-        
+    
         document.getElementById('correctMessageOutput').innerHTML = message;
-        
+}
     
         
      
